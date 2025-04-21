@@ -1,41 +1,58 @@
-# Gemini Clone
+# Gemini Chat Interface
 
-Gemini Clone is a project aimed at replicating the functionality of Gemini, powered by the Google Gemini API, using React and CSS.
+A React-based web application that replicates Google's Gemini interface, allowing users to interact with the Gemini 2.0 Flash AI model through a clean, intuitive chat interface.
 
-## Table of Contents
+## Description
 
-- [Introduction](#introduction)
-- [Features](#features)
-  - [Core Features](#core-features)
-  - [Additional Features](#additional-features)
-  - [Potential Enhancements](#potential-enhancements)
-
-## Introduction
-
-This project introduces a React-based web application that functions as a clone of the Google Gemini AI chatbot. It provides a user-friendly interface for interacting with the powerful Gemini model, allowing you to ask questions and receive informative responses in a conversational manner.
+This project is a clone of Google's Gemini chat interface that lets users send prompts to the Gemini AI model and receive intelligent responses. The application provides a seamless conversational experience with the powerful Gemini 2.0 Flash model.
 
 ## Features
 
-### Core Features
+- *Interactive Chat Interface*: Clean UI for conversations with the AI
+- *Prompt History*: Track and revisit previous conversation prompts
+- *Real-time Responses*: Get immediate responses from Gemini's AI
+- *Markdown Support*: AI responses support formatting like bold text and line breaks
+- *New Chat Creation*: Start fresh conversations at any time
 
-- **Chat Interface:** Provides a dedicated interface for interacting with the Gemini model in a conversational style.
-- **Simulated Typing Effect:** Enhances the user experience by mimicking a natural typing effect during responses.
-- **Google Gemini Integration:** Utilizes the capabilities of the Google Gemini model for generating informative responses.
+## Tech Stack
 
-### Additional Features
+- *Frontend*: React
+- *Build Tool*: Vite
+- *AI Integration*: Google Generative AI API (Gemini 2.0 Flash)
+- *Styling*: CSS
 
-- **React-based Development:** Leverages React's efficient component-based approach for building the application.
-- **CSS Styling:** Employs CSS to style the user interface for visual appeal and usability.
+## Setup Instructions
 
-### Potential Enhancements
+1. *Clone the repository*
+   
+   git clone <your-repo-url>
+   cd gemini-clone
+   
 
-- **Conversation History:** Keeps a record of past interactions for reference.
-- **Advanced UI Elements:** Introduces additional features like emojis, formatting options, or user avatars.
-- **Enhanced Functionality:** Explores integrating functionalities like image search or language translation.
+2. *Install dependencies*
+   
+   npm install
+   
 
-## Installation
+3. *Set up environment variables*
+   - Create a .env file in the root directory
+   - Add your Google Generative AI API key:
+   
+   VITE_GOOGLE_GEMINI_API_KEY=your_api_key_here
+   VITE_GEMINI_MODEL_NAME=gemini-2.0-flash
+   
 
-1. Clone the repository:
+4. *Run the development server*
+   
+   npm run dev
+   
 
-   ```bash
-   git clone https://github.com/iamakashpc/Gemini-Clone.git
+5. *Build for production*
+   
+   npm run build
+   
+
+## Screenshots
+
+image.png
+image.png
