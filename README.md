@@ -53,6 +53,4 @@ This project is a clone of Google's Gemini chat interface that lets users send p
    
 
 ## Screenshots
-
-image.png
-image.png
+![{9E8231CE-4233-4AF4-91A8-6B337D7ABEA7}](https://github.com/user-attachments/assets/47eeb753-01ee-47c7-aa3a-a430bcd6fcd2)
